@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operation using Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-box">
+        <div class="form-box">
+            <form id="form">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" placeholder="Full Name" class="name" name="name" required>
+                <br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter Email" class="email" name="email" required>
+                <br><br>
+                <button type="submit" class="add">Add Record</button>
+            </form>
+        </div>
+        <div class="result-box">
+            <table>
+                <thead>
+                    <th>Name</th>
+                    <th>Email</th>
+
+                </thead>
+                <tbody>
+                    <td id="display-name"></td>
+                    <td id="display-email"></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="crud.js"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
